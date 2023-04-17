@@ -19,3 +19,4 @@ Developers:
 <p align="center">
   <img src="https://raw.githubusercontent.com/<username>/<repository-name>/main/icons/camera.png" width="80" alt="Camera icon">
 </p>
+https://mirrors.pardisco.co/ubuntu-cd/22.04.2/ubuntu-22.04.2-desktop-amd64.iso
