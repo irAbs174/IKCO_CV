@@ -82,7 +82,7 @@ DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite://:memory:')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'chat',
+        'NAME': BASE_DIR / 'core.MD',
     }
 }
 
@@ -108,6 +108,7 @@ LANGUAGE_CODE = 'fa'
 
 LANGUAGES = [
     ('fa', 'Persian'),
+    ('en', 'English'),
 ]
 
 TIME_ZONE = 'UTC'

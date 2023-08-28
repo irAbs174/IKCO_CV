@@ -4,12 +4,13 @@
 {% endblock %}
 {% block polls_content %}
 {% block content %}
+{% include 'utils/header/header.html' %}
 <div class="container-fluid">
   <div class="row">
     <main class="col-lg-8 col-md-12 mb-3">
       <article>
         <header>
-          <img src="/image/header1.webp" alt="" width="100%" />
+          <img src="{% static 'django-cms-logo.png' %}" alt="" width="100%" />
           <h1>عنوان اصلی مقاله این است دوست من</h1>
           <span>دسته بندی اصلی</span>
           <span>نویسنده</span>
@@ -32,7 +33,7 @@
             زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
             پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
           </p>
-          <img src="/image/header3.webp" alt="" />
+          <img src="{% static 'django-cms-logo.png' %}" alt="" />
           <h3>نکات خرید کرتین استخری</h3>
           <p>
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
@@ -47,7 +48,7 @@
             زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
             پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
           </p>
-          <img src="/image/header3.webp" alt="" />
+          <img src="{% static 'django-cms-logo.png' %}" alt="" />
         </div>
 
         <!-- پایان محتوای وبلاگ-->
@@ -58,11 +59,11 @@
         <div class="p-4">
           <h4 class="h4 bchs">دسته بندی محصولات</h4>
           <div class="ads-cat">
-            <img src="/image/header1.webp" alt="" />
-            <img src="/image/herder4.gif" alt="" />
-            <img src="/image/header2.webp" alt="" />
-            <img src="/image/herder5.gif" alt="" />
-            <img src="/image/header3.webp" alt="" />
+            <img src="{% static 'django-cms-logo.png' %}" alt="" />
+            <img src="{% static 'django-cms-logo.png' %}" alt="" />
+            <img src="{% static 'django-cms-logo.png' %}" alt="" />
+            <img src="{% static 'django-cms-logo.png' %}" alt="" />
+            <img src="{% static 'django-cms-logo.png' %}" alt="" />
           </div>
         </div>
       </div>
