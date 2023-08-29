@@ -6,7 +6,7 @@ dev : #ABS 174DEV
 
 + usage
 ```bash
-git clone git@github.com:django-cms/django-cms-quickstart.git
+git clone git@github.com:irAbs174/IKCO_CV.git
 cd django-cms-quickstart
 docker compose build web
 docker compose up -d database_default
