@@ -1,6 +1,5 @@
-=> => => => => => => In the name of GOD <= <= <= <= <= <= <= 
-chatpy v0.0.1
-Django websocket real time server
+AQUA v0.0.1
+Django Django-CMS API-Frameworks
 100% rest full
 dev : #ABS 174DEV
 
